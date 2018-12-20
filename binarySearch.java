@@ -1,15 +1,16 @@
 // binary search using array list
 import java.util.ArrayList;
 import java.util.Scanner;
-class BS
+
+public class BS
 {
 	public static void main(String args[])
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Till?");
+		System.out.println("Till?"); // sorted elements from 1 to end_point
 		int end_point = sc.nextInt();
 		ArrayList<Integer> numbers = new ArrayList<Integer>(end_point);
-		for(int i=1; i<end_point+1; i++)
+		for(int i=1; i<=end_point; i++)
 			numbers.add(i);
 		System.out.println(numbers + "\nFind?");
 		int find = sc.nextInt();
