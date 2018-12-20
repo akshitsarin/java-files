@@ -1,5 +1,5 @@
-// check if given strings are anagram or not
-import java.util.*;
+import java.util.Scanner;
+import java.util.Arrays;
 
 public class anagram
 {
@@ -21,7 +21,7 @@ public class anagram
 			// sort acc to ascii values
 			Arrays.sort(f);
 			Arrays.sort(s);
-			System.out.println(Arrays.equals(f, s) ? 1 : 0);
+			System.out.println(Arrays.equals(f, s) ? "yes" : "no");
 		}
 	}
 }
